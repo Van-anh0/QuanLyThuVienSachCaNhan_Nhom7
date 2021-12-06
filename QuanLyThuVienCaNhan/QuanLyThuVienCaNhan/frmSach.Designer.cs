@@ -35,8 +35,10 @@ namespace QuanLyThuVienCaNhan
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnHinh = new System.Windows.Forms.Button();
+            this.btnMacDinh = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.cbbTinhTrang = new System.Windows.Forms.ComboBox();
+            this.cbbKeSach = new System.Windows.Forms.ComboBox();
             this.cbbTheLoai = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -46,8 +48,12 @@ namespace QuanLyThuVienCaNhan
             this.txtttcnten = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.btnMacDinh = new System.Windows.Forms.Button();
-            this.cbbKeSach = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbPicture)).BeginInit();
             this.SuspendLayout();
@@ -56,6 +62,12 @@ namespace QuanLyThuVienCaNhan
             // 
             this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.groupBox1.Controls.Add(this.comboBox3);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.comboBox2);
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.cbbNxb);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
@@ -76,7 +88,7 @@ namespace QuanLyThuVienCaNhan
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1061, 566);
+            this.groupBox1.Size = new System.Drawing.Size(1061, 605);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -85,7 +97,7 @@ namespace QuanLyThuVienCaNhan
             this.cbbNxb.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbbNxb.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbNxb.FormattingEnabled = true;
-            this.cbbNxb.Location = new System.Drawing.Point(642, 207);
+            this.cbbNxb.Location = new System.Drawing.Point(659, 249);
             this.cbbNxb.Margin = new System.Windows.Forms.Padding(4);
             this.cbbNxb.Name = "cbbNxb";
             this.cbbNxb.Size = new System.Drawing.Size(236, 34);
@@ -97,7 +109,7 @@ namespace QuanLyThuVienCaNhan
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label4.Location = new System.Drawing.Point(493, 210);
+            this.label4.Location = new System.Drawing.Point(497, 252);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(141, 27);
@@ -110,7 +122,7 @@ namespace QuanLyThuVienCaNhan
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label3.Location = new System.Drawing.Point(497, 157);
+            this.label3.Location = new System.Drawing.Point(497, 200);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(99, 27);
@@ -123,7 +135,7 @@ namespace QuanLyThuVienCaNhan
             this.btnHinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnHinh.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHinh.ForeColor = System.Drawing.Color.Red;
-            this.btnHinh.Location = new System.Drawing.Point(475, 337);
+            this.btnHinh.Location = new System.Drawing.Point(493, 473);
             this.btnHinh.Margin = new System.Windows.Forms.Padding(4);
             this.btnHinh.Name = "btnHinh";
             this.btnHinh.Size = new System.Drawing.Size(130, 42);
@@ -132,13 +144,28 @@ namespace QuanLyThuVienCaNhan
             this.btnHinh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnHinh.UseVisualStyleBackColor = false;
             // 
+            // btnMacDinh
+            // 
+            this.btnMacDinh.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnMacDinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnMacDinh.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMacDinh.ForeColor = System.Drawing.Color.Red;
+            this.btnMacDinh.Location = new System.Drawing.Point(918, 550);
+            this.btnMacDinh.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMacDinh.Name = "btnMacDinh";
+            this.btnMacDinh.Size = new System.Drawing.Size(130, 42);
+            this.btnMacDinh.TabIndex = 67;
+            this.btnMacDinh.Text = "Mặc định";
+            this.btnMacDinh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMacDinh.UseVisualStyleBackColor = false;
+            // 
             // btnLuu
             // 
             this.btnLuu.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnLuu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnLuu.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.ForeColor = System.Drawing.Color.Red;
-            this.btnLuu.Location = new System.Drawing.Point(406, 503);
+            this.btnLuu.Location = new System.Drawing.Point(711, 550);
             this.btnLuu.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(130, 42);
@@ -152,11 +179,27 @@ namespace QuanLyThuVienCaNhan
             this.cbbTinhTrang.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbbTinhTrang.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbTinhTrang.FormattingEnabled = true;
-            this.cbbTinhTrang.Location = new System.Drawing.Point(642, 258);
+            this.cbbTinhTrang.Location = new System.Drawing.Point(659, 403);
             this.cbbTinhTrang.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTinhTrang.Name = "cbbTinhTrang";
             this.cbbTinhTrang.Size = new System.Drawing.Size(236, 34);
             this.cbbTinhTrang.TabIndex = 65;
+            // 
+            // cbbKeSach
+            // 
+            this.cbbKeSach.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbbKeSach.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbKeSach.FormattingEnabled = true;
+            this.cbbKeSach.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4"});
+            this.cbbKeSach.Location = new System.Drawing.Point(659, 95);
+            this.cbbKeSach.Margin = new System.Windows.Forms.Padding(4);
+            this.cbbKeSach.Name = "cbbKeSach";
+            this.cbbKeSach.Size = new System.Drawing.Size(236, 34);
+            this.cbbKeSach.TabIndex = 66;
             // 
             // cbbTheLoai
             // 
@@ -171,7 +214,7 @@ namespace QuanLyThuVienCaNhan
             "Văn học",
             "Tiểu thuyết",
             "Giả tưởng"});
-            this.cbbTheLoai.Location = new System.Drawing.Point(642, 154);
+            this.cbbTheLoai.Location = new System.Drawing.Point(659, 197);
             this.cbbTheLoai.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTheLoai.Name = "cbbTheLoai";
             this.cbbTheLoai.Size = new System.Drawing.Size(236, 34);
@@ -183,7 +226,7 @@ namespace QuanLyThuVienCaNhan
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label2.Location = new System.Drawing.Point(493, 265);
+            this.label2.Location = new System.Drawing.Point(497, 410);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 27);
@@ -196,7 +239,7 @@ namespace QuanLyThuVienCaNhan
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label16.Location = new System.Drawing.Point(497, 106);
+            this.label16.Location = new System.Drawing.Point(497, 95);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(89, 27);
@@ -206,9 +249,9 @@ namespace QuanLyThuVienCaNhan
             // ptbPicture
             // 
             this.ptbPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ptbPicture.Location = new System.Drawing.Point(82, 238);
+            this.ptbPicture.Location = new System.Drawing.Point(82, 258);
             this.ptbPicture.Name = "ptbPicture";
-            this.ptbPicture.Size = new System.Drawing.Size(386, 240);
+            this.ptbPicture.Size = new System.Drawing.Size(386, 258);
             this.ptbPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptbPicture.TabIndex = 60;
             this.ptbPicture.TabStop = false;
@@ -217,7 +260,7 @@ namespace QuanLyThuVienCaNhan
             // 
             this.txtTenSach.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtTenSach.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenSach.Location = new System.Drawing.Point(195, 157);
+            this.txtTenSach.Location = new System.Drawing.Point(208, 149);
             this.txtTenSach.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenSach.Name = "txtTenSach";
             this.txtTenSach.Size = new System.Drawing.Size(236, 34);
@@ -228,7 +271,7 @@ namespace QuanLyThuVienCaNhan
             this.txtMa.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtMa.Enabled = false;
             this.txtMa.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMa.Location = new System.Drawing.Point(195, 103);
+            this.txtMa.Location = new System.Drawing.Point(208, 95);
             this.txtMa.Margin = new System.Windows.Forms.Padding(4);
             this.txtMa.Name = "txtMa";
             this.txtMa.Size = new System.Drawing.Size(159, 34);
@@ -240,7 +283,7 @@ namespace QuanLyThuVienCaNhan
             this.txtttcnten.AutoSize = true;
             this.txtttcnten.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtttcnten.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.txtttcnten.Location = new System.Drawing.Point(91, 157);
+            this.txtttcnten.Location = new System.Drawing.Point(104, 149);
             this.txtttcnten.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtttcnten.Name = "txtttcnten";
             this.txtttcnten.Size = new System.Drawing.Size(101, 27);
@@ -253,7 +296,7 @@ namespace QuanLyThuVienCaNhan
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label11.Location = new System.Drawing.Point(91, 106);
+            this.label11.Location = new System.Drawing.Point(104, 98);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(96, 27);
@@ -266,49 +309,98 @@ namespace QuanLyThuVienCaNhan
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label19.Location = new System.Drawing.Point(464, 38);
+            this.label19.Location = new System.Drawing.Point(380, 38);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(279, 35);
             this.label19.TabIndex = 55;
             this.label19.Text = "THÔNG TIN SÁCH\r\n";
             // 
-            // btnMacDinh
+            // comboBox1
             // 
-            this.btnMacDinh.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnMacDinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnMacDinh.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMacDinh.ForeColor = System.Drawing.Color.Red;
-            this.btnMacDinh.Location = new System.Drawing.Point(613, 503);
-            this.btnMacDinh.Margin = new System.Windows.Forms.Padding(4);
-            this.btnMacDinh.Name = "btnMacDinh";
-            this.btnMacDinh.Size = new System.Drawing.Size(130, 42);
-            this.btnMacDinh.TabIndex = 67;
-            this.btnMacDinh.Text = "Mặc định";
-            this.btnMacDinh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnMacDinh.UseVisualStyleBackColor = false;
+            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(659, 353);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(236, 34);
+            this.comboBox1.TabIndex = 75;
             // 
-            // cbbKeSach
+            // label1
             // 
-            this.cbbKeSach.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cbbKeSach.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbbKeSach.FormattingEnabled = true;
-            this.cbbKeSach.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4"});
-            this.cbbKeSach.Location = new System.Drawing.Point(642, 106);
-            this.cbbKeSach.Margin = new System.Windows.Forms.Padding(4);
-            this.cbbKeSach.Name = "cbbKeSach";
-            this.cbbKeSach.Size = new System.Drawing.Size(236, 34);
-            this.cbbKeSach.TabIndex = 66;
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label1.Location = new System.Drawing.Point(497, 356);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 27);
+            this.label1.TabIndex = 74;
+            this.label1.Text = "Tác giả";
+            // 
+            // label5
+            // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label5.Location = new System.Drawing.Point(497, 149);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(113, 27);
+            this.label5.TabIndex = 77;
+            this.label5.Text = "Vị trí ngăn";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Pháp luật",
+            "Khoa học",
+            "Thiếu nhi",
+            "Tâm lý",
+            "Văn học",
+            "Tiểu thuyết",
+            "Giả tưởng"});
+            this.comboBox2.Location = new System.Drawing.Point(659, 146);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(236, 34);
+            this.comboBox2.TabIndex = 76;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(659, 304);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(236, 34);
+            this.comboBox3.TabIndex = 79;
+            // 
+            // label6
+            // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label6.Location = new System.Drawing.Point(497, 307);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(147, 27);
+            this.label6.TabIndex = 78;
+            this.label6.Text = "Năm xuất bản";
             // 
             // frmSach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1061, 566);
+            this.ClientSize = new System.Drawing.Size(1061, 605);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmSach";
             this.Text = "frmSach";
@@ -339,5 +431,11 @@ namespace QuanLyThuVienCaNhan
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button btnMacDinh;
         private System.Windows.Forms.ComboBox cbbKeSach;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }
