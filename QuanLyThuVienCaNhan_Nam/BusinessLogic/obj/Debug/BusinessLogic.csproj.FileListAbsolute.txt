@@ -1,0 +1,54 @@
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.dll
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.pdb
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.dll
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.pdb
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.pdb
+E:\123\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.dll
+E:\123\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.pdb
+E:\123\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.dll
+E:\123\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.pdb
+E:\123\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+E:\123\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\123\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+E:\123\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.dll
+E:\123\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.pdb
+E:\thuviencanhan\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.dll
+E:\thuviencanhan\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.pdb
+E:\thuviencanhan\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.dll
+E:\thuviencanhan\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.pdb
+E:\thuviencanhan\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+E:\thuviencanhan\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\thuviencanhan\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+E:\thuviencanhan\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.dll
+E:\thuviencanhan\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\My C#\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\My C#\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\My C#\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.dll
+D:\My C#\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.pdb
+D:\My C#\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+D:\My C#\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\My C#\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+D:\My C#\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\My C#\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\My C#\QuanLyThuVienCaNhan_Nam\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\My C#\QuanLyThuVienCaNhan_Nam\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\My C#\QuanLyThuVienCaNhan_Nam\BusinessLogic\bin\Debug\DataAccess.dll
+D:\My C#\QuanLyThuVienCaNhan_Nam\BusinessLogic\bin\Debug\DataAccess.pdb
+D:\My C#\QuanLyThuVienCaNhan_Nam\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+D:\My C#\QuanLyThuVienCaNhan_Nam\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\My C#\QuanLyThuVienCaNhan_Nam\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+D:\My C#\QuanLyThuVienCaNhan_Nam\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\My C#\QuanLyThuVienCaNhan_Nam\BusinessLogic\obj\Debug\BusinessLogic.pdb

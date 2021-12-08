@@ -1,0 +1,36 @@
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.dll
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.pdb
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.dll
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.pdb
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.dll
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.pdb
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.dll
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.pdb
+E:\123\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.dll
+E:\123\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.pdb
+E:\123\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+E:\123\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+E:\123\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.dll
+E:\123\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.pdb
+E:\thuviencanhan\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.dll
+E:\thuviencanhan\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.pdb
+E:\thuviencanhan\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+E:\thuviencanhan\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+E:\thuviencanhan\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.dll
+E:\thuviencanhan\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.pdb
+D:\My C#\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.dll
+D:\My C#\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.pdb
+D:\My C#\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\My C#\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\My C#\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.dll
+D:\My C#\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.pdb
+D:\My C#\QuanLyThuVienCaNhan_Nam\DataAccess\bin\Debug\DataAccess.dll
+D:\My C#\QuanLyThuVienCaNhan_Nam\DataAccess\bin\Debug\DataAccess.pdb
+D:\My C#\QuanLyThuVienCaNhan_Nam\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\My C#\QuanLyThuVienCaNhan_Nam\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\My C#\QuanLyThuVienCaNhan_Nam\DataAccess\obj\Debug\DataAccess.dll
+D:\My C#\QuanLyThuVienCaNhan_Nam\DataAccess\obj\Debug\DataAccess.pdb
