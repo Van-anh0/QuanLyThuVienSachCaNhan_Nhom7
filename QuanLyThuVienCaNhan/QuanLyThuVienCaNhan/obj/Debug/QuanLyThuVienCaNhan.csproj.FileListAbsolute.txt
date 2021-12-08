@@ -11,16 +11,28 @@ D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLy
 D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.exe
 D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.pdb
 D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmThongKe.resources
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.exe.config
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.exe
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.pdb
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.AssemblyReference.cache
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.Form1.resources
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmMuonTra.resources
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmSach.resources
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmThongKe.resources
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.Properties.Resources.resources
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.GenerateResource.cache
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.CoreCompileInputs.cache
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.exe
-G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.pdb
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\BusinessLogic.dll
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\DataAccess.dll
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\BusinessLogic.pdb
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\DataAccess.pdb
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.CopyComplete
+D:\LTC#_WinForm\Project\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.test.resources
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.exe.config
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.exe
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.pdb
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\BusinessLogic.dll
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\DataAccess.dll
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\BusinessLogic.pdb
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\DataAccess.pdb
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.AssemblyReference.cache
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.Form1.resources
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmMuonTra.resources
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmSach.resources
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmThongKe.resources
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.Properties.Resources.resources
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.GenerateResource.cache
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.CoreCompileInputs.cache
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.CopyComplete
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.exe
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.pdb
+D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.ThemTL.resources
