@@ -1,0 +1,6 @@
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.dll
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\DataAccess\bin\Debug\DataAccess.pdb
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.dll
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\DataAccess\obj\Debug\DataAccess.pdb

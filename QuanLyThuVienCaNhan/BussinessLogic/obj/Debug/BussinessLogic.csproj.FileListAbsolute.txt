@@ -1,0 +1,9 @@
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BussinessLogic\bin\Debug\BussinessLogic.dll
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BussinessLogic\bin\Debug\BussinessLogic.pdb
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BussinessLogic\bin\Debug\DataAccess.dll
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BussinessLogic\bin\Debug\DataAccess.pdb
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BussinessLogic\obj\Debug\BussinessLogic.csproj.AssemblyReference.cache
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BussinessLogic\obj\Debug\BussinessLogic.csproj.CoreCompileInputs.cache
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BussinessLogic\obj\Debug\BussinessLogic.csproj.CopyComplete
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BussinessLogic\obj\Debug\BussinessLogic.dll
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BussinessLogic\obj\Debug\BussinessLogic.pdb

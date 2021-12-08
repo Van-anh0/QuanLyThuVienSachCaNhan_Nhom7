@@ -41,12 +41,15 @@ namespace QuanLyThuVienCaNhan
             // 
             // dgvDanhSach
             // 
+            this.dgvDanhSach.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvDanhSach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDanhSach.Location = new System.Drawing.Point(40, 189);
+            this.dgvDanhSach.Location = new System.Drawing.Point(12, 162);
             this.dgvDanhSach.Name = "dgvDanhSach";
             this.dgvDanhSach.RowHeadersWidth = 51;
             this.dgvDanhSach.RowTemplate.Height = 24;
-            this.dgvDanhSach.Size = new System.Drawing.Size(878, 320);
+            this.dgvDanhSach.Size = new System.Drawing.Size(1092, 387);
             this.dgvDanhSach.TabIndex = 0;
             // 
             // label19
@@ -55,7 +58,7 @@ namespace QuanLyThuVienCaNhan
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label19.Location = new System.Drawing.Point(391, 24);
+            this.label19.Location = new System.Drawing.Point(461, 24);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(178, 35);
@@ -69,7 +72,7 @@ namespace QuanLyThuVienCaNhan
             this.btnTacGia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnTacGia.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTacGia.ForeColor = System.Drawing.Color.Red;
-            this.btnTacGia.Location = new System.Drawing.Point(40, 115);
+            this.btnTacGia.Location = new System.Drawing.Point(110, 84);
             this.btnTacGia.Margin = new System.Windows.Forms.Padding(4);
             this.btnTacGia.Name = "btnTacGia";
             this.btnTacGia.Size = new System.Drawing.Size(146, 42);
@@ -77,6 +80,7 @@ namespace QuanLyThuVienCaNhan
             this.btnTacGia.Text = "Theo tác giả";
             this.btnTacGia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTacGia.UseVisualStyleBackColor = false;
+            this.btnTacGia.Click += new System.EventHandler(this.btnTacGia_Click);
             // 
             // btnTheLoai
             // 
@@ -85,7 +89,7 @@ namespace QuanLyThuVienCaNhan
             this.btnTheLoai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnTheLoai.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTheLoai.ForeColor = System.Drawing.Color.Red;
-            this.btnTheLoai.Location = new System.Drawing.Point(259, 115);
+            this.btnTheLoai.Location = new System.Drawing.Point(255, 84);
             this.btnTheLoai.Margin = new System.Windows.Forms.Padding(4);
             this.btnTheLoai.Name = "btnTheLoai";
             this.btnTheLoai.Size = new System.Drawing.Size(154, 42);
@@ -93,6 +97,7 @@ namespace QuanLyThuVienCaNhan
             this.btnTheLoai.Text = "Theo thể loại";
             this.btnTheLoai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTheLoai.UseVisualStyleBackColor = false;
+            this.btnTheLoai.Click += new System.EventHandler(this.btnTheLoai_Click);
             // 
             // btnSachMuon
             // 
@@ -101,14 +106,15 @@ namespace QuanLyThuVienCaNhan
             this.btnSachMuon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnSachMuon.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSachMuon.ForeColor = System.Drawing.Color.Red;
-            this.btnSachMuon.Location = new System.Drawing.Point(499, 115);
+            this.btnSachMuon.Location = new System.Drawing.Point(408, 84);
             this.btnSachMuon.Margin = new System.Windows.Forms.Padding(4);
             this.btnSachMuon.Name = "btnSachMuon";
-            this.btnSachMuon.Size = new System.Drawing.Size(188, 42);
+            this.btnSachMuon.Size = new System.Drawing.Size(278, 42);
             this.btnSachMuon.TabIndex = 68;
-            this.btnSachMuon.Text = "Theo sách mượn";
+            this.btnSachMuon.Text = "Theo sách mượn chưa trả";
             this.btnSachMuon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSachMuon.UseVisualStyleBackColor = false;
+            this.btnSachMuon.Click += new System.EventHandler(this.btnSachMuon_Click);
             // 
             // btnThoiGian
             // 
@@ -117,7 +123,7 @@ namespace QuanLyThuVienCaNhan
             this.btnThoiGian.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnThoiGian.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoiGian.ForeColor = System.Drawing.Color.Red;
-            this.btnThoiGian.Location = new System.Drawing.Point(749, 115);
+            this.btnThoiGian.Location = new System.Drawing.Point(694, 84);
             this.btnThoiGian.Margin = new System.Windows.Forms.Padding(4);
             this.btnThoiGian.Name = "btnThoiGian";
             this.btnThoiGian.Size = new System.Drawing.Size(169, 42);
@@ -125,6 +131,7 @@ namespace QuanLyThuVienCaNhan
             this.btnThoiGian.Text = "Theo thời gian";
             this.btnThoiGian.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThoiGian.UseVisualStyleBackColor = false;
+            this.btnThoiGian.Click += new System.EventHandler(this.btnThoiGian_Click);
             // 
             // frmThongKe
             // 
@@ -132,7 +139,7 @@ namespace QuanLyThuVienCaNhan
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(977, 561);
+            this.ClientSize = new System.Drawing.Size(1116, 561);
             this.Controls.Add(this.btnSachMuon);
             this.Controls.Add(this.btnTheLoai);
             this.Controls.Add(this.btnThoiGian);
