@@ -148,7 +148,7 @@ namespace QuanLyThuVienCaNhan
         }
         public int UpdateBook()
         {
-            book.Ma = 0;
+          
             if (txtTenSach.Text == "" || txtTacGia.Text == "" || txtKeSach.Text == "")
                 MessageBox.Show("Chưa nhập dữ liệu cho các ô, vui lòng nhập lại");
             else

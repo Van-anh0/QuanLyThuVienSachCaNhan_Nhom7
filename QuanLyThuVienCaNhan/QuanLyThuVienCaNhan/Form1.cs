@@ -128,7 +128,6 @@ namespace QuanLyThuVienCaNhan
                 bookCurrent.NamXB = item.SubItems[2].Text;
                 bookCurrent.TacGia = item.SubItems[3].Text;
                 bookCurrent.NhaXB = item.SubItems[4].Text;
-                bookCurrent.TrangThai = int.Parse(item.SubItems[5].Text);
                 bookCurrent.KeSach = int.Parse(item.SubItems[6].Text);
                 bookCurrent.VTNgan = int.Parse(item.SubItems[7].Text);
                 bookCurrent.MaTheLoai = int.Parse(item.SubItems[8].Text);
