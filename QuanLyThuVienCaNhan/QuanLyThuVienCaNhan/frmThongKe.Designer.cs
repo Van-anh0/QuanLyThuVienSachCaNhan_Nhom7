@@ -29,6 +29,8 @@ namespace QuanLyThuVienCaNhan
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmThongKe));
             this.dgvDanhSach = new System.Windows.Forms.DataGridView();
             this.label19 = new System.Windows.Forms.Label();
@@ -41,11 +43,29 @@ namespace QuanLyThuVienCaNhan
             // 
             // dgvDanhSach
             // 
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDanhSach.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvDanhSach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDanhSach.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvDanhSach.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgvDanhSach.Location = new System.Drawing.Point(40, 189);
             this.dgvDanhSach.Name = "dgvDanhSach";
             this.dgvDanhSach.RowHeadersWidth = 51;
             this.dgvDanhSach.RowTemplate.Height = 24;
+            this.dgvDanhSach.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDanhSach.Size = new System.Drawing.Size(878, 320);
             this.dgvDanhSach.TabIndex = 0;
             // 
@@ -77,6 +97,7 @@ namespace QuanLyThuVienCaNhan
             this.btnTacGia.Text = "Theo tác giả";
             this.btnTacGia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTacGia.UseVisualStyleBackColor = false;
+            this.btnTacGia.Click += new System.EventHandler(this.btnTacGia_Click);
             // 
             // btnTheLoai
             // 
@@ -93,6 +114,7 @@ namespace QuanLyThuVienCaNhan
             this.btnTheLoai.Text = "Theo thể loại";
             this.btnTheLoai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTheLoai.UseVisualStyleBackColor = false;
+            this.btnTheLoai.Click += new System.EventHandler(this.btnTheLoai_Click);
             // 
             // btnSachMuon
             // 
@@ -109,6 +131,7 @@ namespace QuanLyThuVienCaNhan
             this.btnSachMuon.Text = "Theo sách mượn";
             this.btnSachMuon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSachMuon.UseVisualStyleBackColor = false;
+            this.btnSachMuon.Click += new System.EventHandler(this.btnSachMuon_Click);
             // 
             // btnThoiGian
             // 
@@ -125,6 +148,7 @@ namespace QuanLyThuVienCaNhan
             this.btnThoiGian.Text = "Theo thời gian";
             this.btnThoiGian.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThoiGian.UseVisualStyleBackColor = false;
+            this.btnThoiGian.Click += new System.EventHandler(this.btnThoiGian_Click);
             // 
             // frmThongKe
             // 

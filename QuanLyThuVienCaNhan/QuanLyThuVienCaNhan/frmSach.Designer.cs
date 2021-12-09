@@ -56,6 +56,7 @@ namespace QuanLyThuVienCaNhan
             this.txtNamXB = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnThemTL = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ptbPicture)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -119,7 +120,7 @@ namespace QuanLyThuVienCaNhan
             this.txtTenSach.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenSach.Name = "txtTenSach";
             this.txtTenSach.Size = new System.Drawing.Size(236, 34);
-            this.txtTenSach.TabIndex = 59;
+            this.txtTenSach.TabIndex = 0;
             // 
             // ptbPicture
             // 
@@ -166,7 +167,7 @@ namespace QuanLyThuVienCaNhan
             this.cbbTheLoai.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTheLoai.Name = "cbbTheLoai";
             this.cbbTheLoai.Size = new System.Drawing.Size(180, 34);
-            this.cbbTheLoai.TabIndex = 66;
+            this.cbbTheLoai.TabIndex = 4;
             // 
             // cbbTinhTrang
             // 
@@ -180,7 +181,7 @@ namespace QuanLyThuVienCaNhan
             this.cbbTinhTrang.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTinhTrang.Name = "cbbTinhTrang";
             this.cbbTinhTrang.Size = new System.Drawing.Size(236, 34);
-            this.cbbTinhTrang.TabIndex = 65;
+            this.cbbTinhTrang.TabIndex = 7;
             // 
             // btnLuu
             // 
@@ -192,7 +193,7 @@ namespace QuanLyThuVienCaNhan
             this.btnLuu.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(130, 42);
-            this.btnLuu.TabIndex = 67;
+            this.btnLuu.TabIndex = 9;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLuu.UseVisualStyleBackColor = false;
@@ -204,11 +205,11 @@ namespace QuanLyThuVienCaNhan
             this.btnMacDinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnMacDinh.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMacDinh.ForeColor = System.Drawing.Color.Red;
-            this.btnMacDinh.Location = new System.Drawing.Point(613, 503);
+            this.btnMacDinh.Location = new System.Drawing.Point(692, 503);
             this.btnMacDinh.Margin = new System.Windows.Forms.Padding(4);
             this.btnMacDinh.Name = "btnMacDinh";
             this.btnMacDinh.Size = new System.Drawing.Size(130, 42);
-            this.btnMacDinh.TabIndex = 67;
+            this.btnMacDinh.TabIndex = 11;
             this.btnMacDinh.Text = "Mặc định";
             this.btnMacDinh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMacDinh.UseVisualStyleBackColor = false;
@@ -264,7 +265,7 @@ namespace QuanLyThuVienCaNhan
             this.txtVTNgan.Margin = new System.Windows.Forms.Padding(4);
             this.txtVTNgan.Name = "txtVTNgan";
             this.txtVTNgan.Size = new System.Drawing.Size(236, 34);
-            this.txtVTNgan.TabIndex = 74;
+            this.txtVTNgan.TabIndex = 3;
             // 
             // txtNxb
             // 
@@ -274,7 +275,7 @@ namespace QuanLyThuVienCaNhan
             this.txtNxb.Margin = new System.Windows.Forms.Padding(4);
             this.txtNxb.Name = "txtNxb";
             this.txtNxb.Size = new System.Drawing.Size(236, 34);
-            this.txtNxb.TabIndex = 75;
+            this.txtNxb.TabIndex = 5;
             // 
             // label1
             // 
@@ -297,7 +298,7 @@ namespace QuanLyThuVienCaNhan
             this.txtKeSach.Margin = new System.Windows.Forms.Padding(4);
             this.txtKeSach.Name = "txtKeSach";
             this.txtKeSach.Size = new System.Drawing.Size(236, 34);
-            this.txtKeSach.TabIndex = 77;
+            this.txtKeSach.TabIndex = 2;
             // 
             // txtHinh
             // 
@@ -307,7 +308,7 @@ namespace QuanLyThuVienCaNhan
             this.txtHinh.Margin = new System.Windows.Forms.Padding(4);
             this.txtHinh.Name = "txtHinh";
             this.txtHinh.Size = new System.Drawing.Size(236, 34);
-            this.txtHinh.TabIndex = 78;
+            this.txtHinh.TabIndex = 8;
             // 
             // label5
             // 
@@ -330,7 +331,7 @@ namespace QuanLyThuVienCaNhan
             this.txtTacGia.Margin = new System.Windows.Forms.Padding(4);
             this.txtTacGia.Name = "txtTacGia";
             this.txtTacGia.Size = new System.Drawing.Size(236, 34);
-            this.txtTacGia.TabIndex = 80;
+            this.txtTacGia.TabIndex = 1;
             // 
             // label6
             // 
@@ -353,7 +354,7 @@ namespace QuanLyThuVienCaNhan
             this.txtNamXB.Margin = new System.Windows.Forms.Padding(4);
             this.txtNamXB.Name = "txtNamXB";
             this.txtNamXB.Size = new System.Drawing.Size(236, 34);
-            this.txtNamXB.TabIndex = 82;
+            this.txtNamXB.TabIndex = 6;
             // 
             // groupBox1
             // 
@@ -373,6 +374,7 @@ namespace QuanLyThuVienCaNhan
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.btnHinh);
             this.groupBox1.Controls.Add(this.btnMacDinh);
+            this.groupBox1.Controls.Add(this.btnUpdate);
             this.groupBox1.Controls.Add(this.btnLuu);
             this.groupBox1.Controls.Add(this.cbbTinhTrang);
             this.groupBox1.Controls.Add(this.cbbTheLoai);
@@ -406,6 +408,22 @@ namespace QuanLyThuVienCaNhan
             this.btnThemTL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThemTL.UseVisualStyleBackColor = false;
             this.btnThemTL.Click += new System.EventHandler(this.btnThemTL_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnUpdate.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.ForeColor = System.Drawing.Color.Red;
+            this.btnUpdate.Location = new System.Drawing.Point(549, 503);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(130, 42);
+            this.btnUpdate.TabIndex = 10;
+            this.btnUpdate.Text = "Cập nhật";
+            this.btnUpdate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // frmSach
             // 
@@ -451,5 +469,6 @@ namespace QuanLyThuVienCaNhan
         private System.Windows.Forms.TextBox txtNamXB;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnThemTL;
+        private System.Windows.Forms.Button btnUpdate;
     }
 }

@@ -16,6 +16,7 @@ namespace QuanLyThuVienCaNhan
 {
     public partial class Form1 : Form
     {
+        private const string PlaceHolderText = "Nhập thông tin của sách cần tìm !!!!!";
         List<Category> listCategory = new List<Category>();
         List<Book> listBook = new List<Book>();
         int bookID = 0;
@@ -26,6 +27,7 @@ namespace QuanLyThuVienCaNhan
         private void Form1_Load(object sender, EventArgs e)
         {
             LoadCategory();
+            SetUpSearchInputText();
         }
         private void CreatButton(int id, string name, int yPos)
 		{
@@ -51,9 +53,9 @@ namespace QuanLyThuVienCaNhan
             {
                 books = books.Where(f => f.MaTheLoai == bookID).ToList();
             }
-            LoadFoodToLvDetail(books);
+            LoadBookToLvDetail(books);
         }
-        private void LoadFoodToLvDetail(List<Book> list)
+        private void LoadBookToLvDetail(List<Book> list)
         {
             lsvDanhSach.Items.Clear();
             foreach (var book in list)
@@ -85,7 +87,26 @@ namespace QuanLyThuVienCaNhan
 				CreatButton(cat.ID, cat.Name, yPos);
 			}
 		}
-      
+        private void SetUpSearchInputText()
+        {
+            txtSearch.Text = PlaceHolderText;
+            txtSearch.GotFocus += RemoveText;
+            txtSearch.LostFocus += ShowText; 
+        }
+
+        private void ShowText(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtSearch.Text))
+                txtSearch.Text = PlaceHolderText;
+        }
+
+        private void RemoveText(object sender, EventArgs e)
+        {
+            if (txtSearch.Text == PlaceHolderText)
+                txtSearch.Text = "";
+        }
+
+
         private void tsmiMuonSach_Click(object sender, EventArgs e)
         {
             frmMuonTra frmMuon = new frmMuonTra();
@@ -94,7 +115,16 @@ namespace QuanLyThuVienCaNhan
 
         private void lsvDanhSach_SelectedIndexChanged(object sender, EventArgs e)
         {
-          
+            int count = lsvDanhSach.SelectedItems.Count;
+            if (count != 0)
+            {
+                string hinh = lsvDanhSach.SelectedItems[0].SubItems[9].Text;
+                try
+                {
+                    ptbPicture.Load(hinh);
+                }
+                catch { }
+            }
         }
 
         private void tsmThongKe_Click(object sender, EventArgs e)
@@ -139,7 +169,7 @@ namespace QuanLyThuVienCaNhan
             lsvDanhSach.Items.Clear();
             var keyWord = txtSearch.Text;
             var books = FindBooks(bookID, keyWord);
-            LoadFoodToLvDetail(books);
+            LoadBookToLvDetail(books);
         }
 
         private void lsvDanhSach_DoubleClick(object sender, EventArgs e)
@@ -170,7 +200,7 @@ namespace QuanLyThuVienCaNhan
                 {
                     books = books.Where(f => f.MaTheLoai == frmSach.book.MaTheLoai).ToList();
                 }
-                LoadFoodToLvDetail(books);
+                LoadBookToLvDetail(books);
             }
         }
     }

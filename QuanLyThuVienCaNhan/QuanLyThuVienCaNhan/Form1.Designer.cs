@@ -57,11 +57,13 @@ namespace QuanLyThuVienCaNhan
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tsmThem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmThongKe = new System.Windows.Forms.ToolStripMenuItem();
+            this.ptbPicture = new System.Windows.Forms.PictureBox();
             this.contextMenuStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbPicture)).BeginInit();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -113,6 +115,9 @@ namespace QuanLyThuVienCaNhan
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.BackColor = System.Drawing.Color.White;
             this.groupBox2.Controls.Add(this.DanhSachTheLoai);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -183,7 +188,11 @@ namespace QuanLyThuVienCaNhan
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.groupBox1.Controls.Add(this.ptbPicture);
             this.groupBox1.Controls.Add(this.lsvDanhSach);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(371, 67);
@@ -211,7 +220,7 @@ namespace QuanLyThuVienCaNhan
             this.lsvDanhSach.HideSelection = false;
             this.lsvDanhSach.Location = new System.Drawing.Point(13, 21);
             this.lsvDanhSach.Name = "lsvDanhSach";
-            this.lsvDanhSach.Size = new System.Drawing.Size(777, 594);
+            this.lsvDanhSach.Size = new System.Drawing.Size(777, 337);
             this.lsvDanhSach.TabIndex = 0;
             this.lsvDanhSach.UseCompatibleStateImageBehavior = false;
             this.lsvDanhSach.View = System.Windows.Forms.View.Details;
@@ -272,23 +281,35 @@ namespace QuanLyThuVienCaNhan
             this.tsmThongKe});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1174, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1174, 30);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // tsmThem
             // 
             this.tsmThem.Name = "tsmThem";
-            this.tsmThem.Size = new System.Drawing.Size(90, 24);
+            this.tsmThem.Size = new System.Drawing.Size(90, 26);
             this.tsmThem.Text = "Thêm mới";
             this.tsmThem.Click += new System.EventHandler(this.tsmThem_Click);
             // 
             // tsmThongKe
             // 
             this.tsmThongKe.Name = "tsmThongKe";
-            this.tsmThongKe.Size = new System.Drawing.Size(84, 24);
+            this.tsmThongKe.Size = new System.Drawing.Size(84, 26);
             this.tsmThongKe.Text = "Thống kê";
             this.tsmThongKe.Click += new System.EventHandler(this.tsmThongKe_Click);
+            // 
+            // ptbPicture
+            // 
+            this.ptbPicture.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ptbPicture.Location = new System.Drawing.Point(214, 375);
+            this.ptbPicture.Name = "ptbPicture";
+            this.ptbPicture.Size = new System.Drawing.Size(386, 240);
+            this.ptbPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbPicture.TabIndex = 62;
+            this.ptbPicture.TabStop = false;
             // 
             // Form1
             // 
@@ -307,6 +328,7 @@ namespace QuanLyThuVienCaNhan
             this.groupBox1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbPicture)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -339,6 +361,7 @@ namespace QuanLyThuVienCaNhan
         private System.Windows.Forms.RadioButton rdTacGia;
         private System.Windows.Forms.RadioButton rdSach;
         private System.Windows.Forms.ColumnHeader columnHeader10;
+        private System.Windows.Forms.PictureBox ptbPicture;
     }
 }
 

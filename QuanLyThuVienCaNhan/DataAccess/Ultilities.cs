@@ -18,6 +18,10 @@ namespace DataAccess
         public static string Book_GetAll = "Book_GetAll";
         public static string Category_InsertUpdateDelete = "Category_InsertUpdateDelete";
         public static string Book_InsertUpdateDelete = "Book_InsertUpdateDelete";
+        public static string TK_TheLoai = "TK_TheLoai";
+        public static string TK_TacGia = "TK_TacGia";
+        public static string TK_SachMuon = "TK_SachMuon";
+        public static string TK_ThoiGian = "TK_ThoiGian";
 
     }
 }

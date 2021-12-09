@@ -28,6 +28,7 @@ namespace DataAccess
                 book.TacGia = reader["TacGia"].ToString();
                 book.NhaXB = reader["NXB"].ToString();
                 book.NamXB = reader["NamXB"].ToString();
+                book.HinhAnh = reader["Hinh"].ToString();
                 book.KeSach = Convert.ToInt32(reader["KeSach"]);
                 book.VTNgan = Convert.ToInt32(reader["VTNgan"]);
                 book.TrangThai = Convert.ToInt32(reader["TrangThai"]);
@@ -47,24 +48,16 @@ namespace DataAccess
             SqlParameter IDPara = new SqlParameter("@ID", SqlDbType.Int);
             IDPara.Direction = ParameterDirection.InputOutput;
             command.Parameters.Add(IDPara).Value = book.Ma;
-            command.Parameters.Add("@TenSach", SqlDbType.NVarChar, 200)
-            .Value = book.Name;
-            command.Parameters.Add("@NamXB", SqlDbType.NVarChar,10)
-            .Value = book.NamXB;
-            command.Parameters.Add("@TacGia", SqlDbType.NVarChar,100)
-            .Value = book.TacGia;
-            command.Parameters.Add("@NhaXB", SqlDbType.NVarChar,100)
-            .Value = book.NhaXB;
-            command.Parameters.Add("@TrangThai", SqlDbType.Bit)
-            .Value = book.TrangThai;
-            command.Parameters.Add("@KeSach", SqlDbType.Int)
-            .Value = book.KeSach;
-            command.Parameters.Add("@VTNgan", SqlDbType.Int)
-            .Value = book.VTNgan;
-            command.Parameters.Add("@MaTL", SqlDbType.Int)
-            .Value = book.MaTheLoai;
-            command.Parameters.Add("@Action", SqlDbType.Int)
-            .Value = action;
+            command.Parameters.Add("@TenSach", SqlDbType.NVarChar, 200).Value = book.Name;
+            command.Parameters.Add("@NamXB", SqlDbType.NVarChar,10).Value = book.NamXB;
+            command.Parameters.Add("@TacGia", SqlDbType.NVarChar,100).Value = book.TacGia;
+            command.Parameters.Add("@NhaXB", SqlDbType.NVarChar,100).Value = book.NhaXB;
+            command.Parameters.Add("@TrangThai", SqlDbType.Bit).Value = book.TrangThai;
+            command.Parameters.Add("@KeSach", SqlDbType.Int).Value = book.KeSach;
+            command.Parameters.Add("@VTNgan", SqlDbType.Int).Value = book.VTNgan;
+            command.Parameters.Add("@MaTL", SqlDbType.Int).Value = book.MaTheLoai;
+            command.Parameters.Add("@Hinh", SqlDbType.NVarChar, 200).Value = book.HinhAnh;
+            command.Parameters.Add("@Action", SqlDbType.Int).Value = action;
             int result = command.ExecuteNonQuery();
             if (result > 0)
                 return (int)command.Parameters["@ID"].Value;
