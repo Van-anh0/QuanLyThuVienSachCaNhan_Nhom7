@@ -92,25 +92,25 @@ INSERT [dbo].[TheLoai] ([MaTL],[TenTL]) VALUES (7,N'Khoa học')
 INSERT [dbo].[TheLoai] ([MaTL],[TenTL]) VALUES (8,N'Tôn giáo')
 INSERT [dbo].[TheLoai] ([MaTL],[TenTL]) VALUES (9,N'Công nghệ')
 ------------------
-SET IDENTITY_INSERT [dbo].[TheLoai] OFF
-SET IDENTITY_INSERT [dbo].[Sach] ON
+SET IDENTITY_INSERT [dbo].[TheLoai] Off
+SET IDENTITY_INSERT [dbo].[Sach] On
 
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('1',N'Chính trị luận',2000,N'Aritotle',N'NXB Nông Duy Trường',0,1,2,1,NULL)
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('2',N'Đất nước nhỏ, nền chính trị lớn',1999,N'Karava',N'NXB Chính trị quốc gia',0,2,1,1,NULL)
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('3',N'Bố già',2005,N'Mario Puzo',N'NXB Trẻ',0,1,1,3,NULL)
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('4',N'Tuổi thơ dữ dội',1968,N'Phùng Quán',N'NXB Nhi Đồng',1,1,1,3,NULL)
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('5',N'Tiếng chim hót trong bụi mận gai',1968,N'J.R.R.Tolkien',N'NXB Nhi Đồng',1,1,1,3,NULL)
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('6',N'Không gia đình',1968,N'Hector Malot',N'NXB Trẻ',0,1,1,3,NULL)
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('6',N'Không gia đình',1968,N'Hector Malot',N'NXB Trẻ',1,1,1,3,NULL)
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('7',N'Thành phố thông minh',2010,N'Houbing Song',N'NXB Chính trị quốc gia',0,1,4,9,'D:\sach\anh7.png')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('8',N'Chú bé mang Pyjama sọc',2010,N'John Boyne',N'NXB Hội nhà văn',1,2,2,6,'D:\sach\anh8.jpg')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('9',N'Harry Potter và Hòn đá phù thủy',2012,N'J.K.Rowling',N'NXB Trẻ',0,2,3,6,'D:\sach\anh9.jpg')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('10',N'Thiền Sư và em bé 5 tuổi',2011,N'Thích Nhất Hạnh',Null,0,4,1,8,'D:\sach\anh10.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('9',N'Harry Potter và Hòn đá phù thủy',2012,N'J.K.Rowling',N'NXB Trẻ',1,2,3,6,'D:\sach\anh9.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('10',N'Thiền Sư và em bé 5 tuổi',2011,N'Thích Nhất Hạnh',Null,1,4,1,8,'D:\sach\anh10.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('11',N'Harry Potter và Phòng chứa bí mật',2012,N'J.K.Rowling',N'NXB Trẻ',1,2,3,6,'D:\sach\anh11.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('12',N'Năng lượng',2011,N'Richard Rhodes',Null,0,3,2,7,'D:\sach\anh12.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('13',N'Mô hình Hồi Quy và Khám phá Khoa học',2011,N'Nguyễn Văn Tuấn',N'NXB Tổng hợp',0,3,2,7,'D:\sach\anh13.jpg')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('14',N'Harry Potter và Hội Phường Hoàng',2012,N'J.K.Rowling',N'NXB Trẻ',0,2,3,6,'D:\sach\anh14.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('14',N'Harry Potter và Hội Phường Hoàng',2012,N'J.K.Rowling',N'NXB Trẻ',1,2,3,6,'D:\sach\anh14.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('15',N'Harry Potter và Đứa trẻ bị nguyền rủa',2012,N'J.K.Rowling',N'NXB Trẻ',1,2,3,6,'D:\sach\anh15.jpg')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('16',N'Từ bước nở hoa sen',2011,N'Thích Nhất Hạnh',N'NXB Hồng Đức',0,4,1,8,'D:\sach\anh16.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('16',N'Từ bước nở hoa sen',2011,N'Thích Nhất Hạnh',N'NXB Hồng Đức',1,4,1,8,'D:\sach\anh16.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('17',N'Đạo phật ngày nay',2017,N'Thích Nhất Hạnh',N'NXB Văn hóa dân tộc',0,4,1,8,'D:\sach\anh17.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('18',N'Tay thầy trong tay con',2017,N'Thích Nhất Hạnh',N'NXB Lao động',0,4,1,8,'D:\sach\anh18.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('19',N'Chuyển đổi số',2018,N'Lindsay Herbert',N'NXB Thông tin và truyền thông',0,1,2,9,'D:\sach\anh19.jpg')
@@ -121,12 +121,12 @@ INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSa
 
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('22',N'Lồng kính – Tự động hóa và Chúng ta',2019,N'Nicholas Carr',N'NXB Trẻ',0,2,4,7,'D:\sach\anh22.jpg')
 
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('23',N'Lỗ đen',2018,N'Stephen Hawking',N'NXB Trẻ',0,2,4,7,'D:\sach\anh23.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('23',N'Lỗ đen',2018,N'Stephen Hawking',N'NXB Trẻ',1,2,4,7,'D:\sach\anh23.jpg')
 
 
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('24',N'Cổ tích Việt Nam – Tình nghĩa thủy chung',2015,N'Nguyễn Mạnh Thái',N'NXB Mỹ thuật',0,1,3,6,'D:\sach\anh24.jpg')
 
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('25',N'Cổ tích Trăng Non – Cậu bé Tích Chu',2014,N'',N'NXB Phụ nữ Việt Nam ',0,1,3,6,'D:\sach\anh25.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('25',N'Cổ tích Trăng Non – Cậu bé Tích Chu',2014,N'',N'NXB Phụ nữ Việt Nam ',1,1,3,6,'D:\sach\anh25.jpg')
 
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('26',N'Thần thoại Hy Lạp',2016,N'',N'NXB Văn Học ',0,4,2,8,'D:\sach\anh26.jpg')
 
@@ -138,9 +138,9 @@ INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSa
 
 
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('30',N'Truyện cổ Grimm 2',2017,N'Jacos, Wilhelm Grimm',N'NXB Hà Nội',1,1,2,6,'D:\sach\anh30.jpg')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('31',N'Doraemon VOL.1',2017,N'Fujiko F Fujio',N'NXB Kim Đồng',0,1,4,6,'D:\sach\anh31.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('31',N'Doraemon VOL.1',2017,N'Fujiko F Fujio',N'NXB Kim Đồng',1,1,4,6,'D:\sach\anh31.jpg')
 
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('32', N'Doraemon VOL.2',2017,N'Fujiko F Fujio',N'NXB Kim Đồng',0,1,4,6,'D:\sach\anh32.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('32', N'Doraemon VOL.2',2017,N'Fujiko F Fujio',N'NXB Kim Đồng',1,1,4,6,'D:\sach\anh32.jpg')
 
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('33', N'Doraemon VOL.3',2017,N'Fujiko F Fujio',N'NXB Kim Đồng',1,1,4,6,'D:\sach\anh33.jpg')
 
@@ -149,9 +149,9 @@ INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSa
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('35', N'Doraemon VOL.5',2018,N'Fujiko F Fujio',N'NXB Kim Đồng',1,1,4,6,'D:\sach\anh35.jpg')
 
 
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('36', N'Doraemon VOL.6',2018,N'Fujiko F Fujio',N'NXB Kim Đồng',0,1,4,6,'D:\sach\anh36.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('36', N'Doraemon VOL.6',2018,N'Fujiko F Fujio',N'NXB Kim Đồng',1,1,4,6,'D:\sach\anh36.jpg')
 
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('37', N'Doraemon VOL.7',2019,N'Fujiko F Fujio',N'NXB Kim Đồng',0,1,4,6,'D:\sach\anh37.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('37', N'Doraemon VOL.7',2019,N'Fujiko F Fujio',N'NXB Kim Đồng',1,1,4,6,'D:\sach\anh37.jpg')
 
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('38', N'Doraemon VOL.8',2019,N'Fujiko F Fujio',N'NXB Kim Đồng',0,1,4,6,'D:\sach\anh38.jpg')
 
@@ -160,32 +160,32 @@ INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSa
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('40', N'Doraemon VOL.10',2019,N'Fujiko F Fujio',N'NXB Kim Đồng',0,1,4,6,'D:\sach\anh40.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('41',N'Tế bào gốc',2014,N'Paul Knoepfler',N'NXB Dân trí ',0,3,2,7,'D:\sach\anh41.jpg')
 
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('42',N'Endurance hành trình không gian',2019,N'Scott Kelly',N'NXB Thế giới',0,4,1,7,'D:\sach\anh42.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('42',N'Endurance hành trình không gian',2019,N'Scott Kelly',N'NXB Thế giới',1,4,1,7,'D:\sach\anh42.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('43',N'Những gã khổng lồ công nghệ Trung Quốc',2019,N'Rebecca A. Fannin',N'NXB Thế giới',1,2,2,9,'D:\sach\anh43.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('44',N'Máy móc-Nền tảng-Cộng đồng',2020,N'Andrew Mcafee Erik Brynjolfsson',N'NXB Thông tin và truyền thông ',0,2,2,9,'D:\sach\anh44.jpg')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('45',N'Bụt là hình hài-Bụt là tâm thức',2018,N'Thích Nhất Hạnh',N'NXB Lao động ',0,4,1,8,'D:\sach\anh45.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('45',N'Bụt là hình hài-Bụt là tâm thức',2018,N'Thích Nhất Hạnh',N'NXB Lao động ',1,4,1,8,'D:\sach\anh45.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('46',N'Ngôn ngữ của chúa',2017,N'Francis S. Collins',N'NXB Thế giới ',0,4,2,8,'D:\sach\anh46.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('47',N'Vật liệu và thiết bị Nano',2019,N'Trương Văn Tân',N'NXB Tổng hợp Hồ Chí Minh',1,1,3,9,'D:\sach\anh47.jpg')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('48',N'6 phát minh làm nên thời đại',2018,N'Steven Johnson',N'NXB Thế giới ',0,3,2,7,'D:\sach\anh48.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('48',N'6 phát minh làm nên thời đại',2018,N'Steven Johnson',N'NXB Thế giới ',1,3,2,7,'D:\sach\anh48.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('49',N'Bách khoa toàn thư Khoa học',2018,N'Chris Woodford, Steve Parker',N'NXB Lao động ',0,3,2,7,'D:\sach\anh49.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('50',N'Vật lý hạt',2014,N'Tom Whynite, Oliver Pugh',N'NXB Dân trí',0,3,2,7,'D:\sach\anh50.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('51',N'Lược sử tôn giáo',2017,N'Richard Holloway',N'NXB Thế giới',0,4,2,8,'D:\sach\anh51.jpg')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('52',N'Nhà giả kim',2017,N'Paulo Coelho',N'NXB Văn Học ',0,1,3,6,'D:\sach\anh52.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('52',N'Nhà giả kim',2017,N'Paulo Coelho',N'NXB Văn Học ',1,1,3,6,'D:\sach\anh52.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('53',N'101 Truyện cổ tích chọn lọc',2019,N'Vương Diễm Nga',N'NXB Văn Học',0,2,2,6,'D:\sach\anh53.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('54',N'Code dạo ký sự-Lập trình viên đâu phải chỉ biết code',2020,N'Phạm Huy Hoàng',N'NXB Dân trí',1,1,4,9,'D:\sach\anh54.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('55',N'Dữ liệu lớn-Cuộc cách mạng thay đổi chúng ta và thế giới',2020,N'Rob Thomas, Patrick McSharry',N'NXB Khoa học và kỹ thuật ',1,1,4,9,'D:\sach\anh55.jpg')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('56',N'Tư Duy Pháp Lý Của Luật Sư',2016,N'Plato',N'NXB Lao động',0,2,3,2,'D:\sach\tuduy.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('56',N'Tư Duy Pháp Lý Của Luật Sư',2016,N'Plato',N'NXB Lao động',1,2,3,2,'D:\sach\tuduy.jpg')
 
 
 
 --10 thể loại đầu chính trị
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('57',N'Qatar – Đất Nước Nhỏ, Nền Chính Trị Lớn',1968,N'Aristotle',N'Dịch giả Nông Duy Trường',0,2,1,1,'D:\sach\qatar.png')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('58',N'Chính trị - Khái lược những tư tưởng lớn',2019,N'DK',N'NXB Dân Trí',0,1,1,1,'D:\sach\khailuoctutuonglon.png')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('58',N'Chính trị - Khái lược những tư tưởng lớn',2019,N'DK',N'NXB Dân Trí',1,1,1,1,'D:\sach\khailuoctutuonglon.png')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('59',N'Bàn Về Khế Ước Xã Hội',2018,N'Jean - Jacques Rousseau',N'Nhà Xuất Bản Thế Giới',0,2,1,1,'D:\sach\kheuoc.png')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('60',N'Quân Vương – Thuật Cai Trị',2018,N'Niccolò Machiavelli',N'NXB Thế Giới',1,2,2,1,'D:\sach\qunvuong.png')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('61',N'Cộng Hòa',2018,N'Plato',N'NXB Thế Giới',0,2,2,1,'D:\sach\conghoa.png')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('62',N'Bàn Về Tinh Thần Pháp Luật',2016,N'Aristotle',N'NXB Thế Giới',0,2,1,1,'D:\sach\tinhthanphapluat.png')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('63',N'33 Chiến Lược Của Chiến Tranh',2020,N'Robert Greene',N'NXB Trẻ',0,1,2,1,'D:\sach\33chienluoc.png')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('63',N'33 Chiến Lược Của Chiến Tranh',2020,N'Robert Greene',N'NXB Trẻ',1,1,2,1,'D:\sach\33chienluoc.png')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('64',N'Chính Trị – Nghề Nghiệp Và Sứ Mệnh',2019,N'Aristotle',N'NXB Thế Giới',0,2,1,1,'D:\sach\nghenghiepsumenh.png')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('65',N'Ngày Cuối Trong Đời Socrates',2018,N'Plato',N'NXB Thế Giới',1,2,2,1,'D:\sach\ngaycuoi.png')
 
@@ -197,7 +197,7 @@ INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSa
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('69',N'Bộ Luật Lao Động',2015,N'Quốc hội',N'NXB Lao động',1,2,2,2,'D:\sach\laodong.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('70',N'Hiến Pháp Mỹ Được Làm Ra Như Thế Nào?',2018,N'Nguyễn Cảnh Bình',N'NXB Thế Giới',0,2,2,2,'D:\sach\hienphapmy.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('71',N'25 Tình Huống Pháp Lý Đời Thường',2018,N'Plato',N'NXB Lao động',0,2,2,2,'D:\sach\25tinhhuong.jpg')
-INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('72',N'Luật 101',2018,N'Rhonda Byrne',N'NXB Thế Giới',0,2,2,2,'D:\sach\luat101.jpg')
+INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('72',N'Luật 101',2018,N'Rhonda Byrne',N'NXB Thế Giới',1,2,2,2,'D:\sach\luat101.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('73',N'Cẩm Nang Tra Cứu Pháp Luật Về Cạnh Tranh',2017,N'Nhiều tác giả',N'NXB Chính Trị Quốc Gia Sự Thật',0,2,2,2,'D:\sach\camnang.jpg')
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('74',N'Các Chế Độ Hôn Nhân Và Gia Đình Việt Nam Xưa Và Nay',2018,N'Nhiều tác giả',N'NXB Lao động',1,2,2,2,'D:\sach\cacchedo.jpg')
 
@@ -240,18 +240,9 @@ INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSa
 INSERT [dbo].[Sach] ([MaSach],[TenSach],[NamXB],[TacGia],[NXB],[TrangThai],[KeSach],[VTNgan],[MaTL],[Hinh]) VALUES ('105',N'Chính trị luận',2018,N'Aristotle',N'NXB Thế Giới',0,2,1,1,'D:\sach\chinhtriluan.png')
 
 
-
-
-
-
-
-
-
-
-
 -------------------
-SET IDENTITY_INSERT [dbo].[Sach] On
-SET IDENTITY_INSERT [dbo].[BanDoc] off
+SET IDENTITY_INSERT [dbo].[Sach] Off
+SET IDENTITY_INSERT [dbo].[BanDoc] On
 INSERT [dbo].[BanDoc] ([ID],[Ten],[DiaChi],[SDT]) VALUES (1,N'Phạm Hoàng Châu Kiến',N'123 Hồ Tùng Mậu',N'0917391111')
 INSERT [dbo].[BanDoc] ([ID],[Ten],[DiaChi],[SDT]) VALUES (2,N'Ngọc Miên Nhi',N'12 Hồ Tùng Mậu',N'0917391441')
 -------------------
