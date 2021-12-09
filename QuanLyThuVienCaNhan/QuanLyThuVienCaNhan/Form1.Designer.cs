@@ -43,6 +43,7 @@ namespace QuanLyThuVienCaNhan
             this.rdTacGia = new System.Windows.Forms.RadioButton();
             this.rdSach = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ptbPicture = new System.Windows.Forms.PictureBox();
             this.lsvDanhSach = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -57,13 +58,12 @@ namespace QuanLyThuVienCaNhan
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tsmThem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmThongKe = new System.Windows.Forms.ToolStripMenuItem();
-            this.ptbPicture = new System.Windows.Forms.PictureBox();
             this.contextMenuStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbPicture)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -74,26 +74,27 @@ namespace QuanLyThuVienCaNhan
             this.tsmiTraSach,
             this.xoaToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(151, 76);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 104);
             // 
             // tsmiMuonSach
             // 
             this.tsmiMuonSach.Name = "tsmiMuonSach";
-            this.tsmiMuonSach.Size = new System.Drawing.Size(150, 24);
+            this.tsmiMuonSach.Size = new System.Drawing.Size(210, 24);
             this.tsmiMuonSach.Text = "Mượn sách";
             this.tsmiMuonSach.Click += new System.EventHandler(this.tsmiMuonSach_Click);
             // 
             // tsmiTraSach
             // 
             this.tsmiTraSach.Name = "tsmiTraSach";
-            this.tsmiTraSach.Size = new System.Drawing.Size(150, 24);
+            this.tsmiTraSach.Size = new System.Drawing.Size(210, 24);
             this.tsmiTraSach.Text = "Trả sách";
             // 
             // xoaToolStripMenuItem
             // 
             this.xoaToolStripMenuItem.Name = "xoaToolStripMenuItem";
-            this.xoaToolStripMenuItem.Size = new System.Drawing.Size(150, 24);
+            this.xoaToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.xoaToolStripMenuItem.Text = "Xóa";
+            this.xoaToolStripMenuItem.Click += new System.EventHandler(this.xoaToolStripMenuItem_Click);
             // 
             // txtSearch
             // 
@@ -201,6 +202,18 @@ namespace QuanLyThuVienCaNhan
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             // 
+            // ptbPicture
+            // 
+            this.ptbPicture.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ptbPicture.Location = new System.Drawing.Point(214, 375);
+            this.ptbPicture.Name = "ptbPicture";
+            this.ptbPicture.Size = new System.Drawing.Size(386, 240);
+            this.ptbPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbPicture.TabIndex = 62;
+            this.ptbPicture.TabStop = false;
+            // 
             // lsvDanhSach
             // 
             this.lsvDanhSach.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -281,35 +294,23 @@ namespace QuanLyThuVienCaNhan
             this.tsmThongKe});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1174, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1174, 28);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // tsmThem
             // 
             this.tsmThem.Name = "tsmThem";
-            this.tsmThem.Size = new System.Drawing.Size(90, 26);
+            this.tsmThem.Size = new System.Drawing.Size(90, 24);
             this.tsmThem.Text = "Thêm mới";
             this.tsmThem.Click += new System.EventHandler(this.tsmThem_Click);
             // 
             // tsmThongKe
             // 
             this.tsmThongKe.Name = "tsmThongKe";
-            this.tsmThongKe.Size = new System.Drawing.Size(84, 26);
+            this.tsmThongKe.Size = new System.Drawing.Size(84, 24);
             this.tsmThongKe.Text = "Thống kê";
             this.tsmThongKe.Click += new System.EventHandler(this.tsmThongKe_Click);
-            // 
-            // ptbPicture
-            // 
-            this.ptbPicture.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ptbPicture.Location = new System.Drawing.Point(214, 375);
-            this.ptbPicture.Name = "ptbPicture";
-            this.ptbPicture.Size = new System.Drawing.Size(386, 240);
-            this.ptbPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbPicture.TabIndex = 62;
-            this.ptbPicture.TabStop = false;
             // 
             // Form1
             // 
@@ -326,9 +327,9 @@ namespace QuanLyThuVienCaNhan
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ptbPicture)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbPicture)).EndInit();
             this.ResumeLayout(false);
 
         }

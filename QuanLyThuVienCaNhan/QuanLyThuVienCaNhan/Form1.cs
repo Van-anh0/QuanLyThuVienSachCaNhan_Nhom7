@@ -20,6 +20,7 @@ namespace QuanLyThuVienCaNhan
         List<Category> listCategory = new List<Category>();
         List<Book> listBook = new List<Book>();
         int bookID = 0;
+        Book bookCurrent = new Book();
         public Form1()
         {
             InitializeComponent();
@@ -119,11 +120,27 @@ namespace QuanLyThuVienCaNhan
             if (count != 0)
             {
                 string hinh = lsvDanhSach.SelectedItems[0].SubItems[9].Text;
+                bookCurrent = new Book();
+
+                ListViewItem item = lsvDanhSach.SelectedItems[0];
+                bookCurrent.Ma = int.Parse(item.SubItems[0].Text);
+                bookCurrent.Name = item.SubItems[1].Text;
+                bookCurrent.NamXB = item.SubItems[2].Text;
+                bookCurrent.TacGia = item.SubItems[3].Text;
+                bookCurrent.NhaXB = item.SubItems[4].Text;
+                bookCurrent.TrangThai = int.Parse(item.SubItems[5].Text);
+                bookCurrent.KeSach = int.Parse(item.SubItems[6].Text);
+                bookCurrent.VTNgan = int.Parse(item.SubItems[7].Text);
+                bookCurrent.MaTheLoai = int.Parse(item.SubItems[8].Text);
+                bookCurrent.HinhAnh = item.SubItems[9].Text;
                 try
                 {
                     ptbPicture.Load(hinh);
                 }
-                catch { }
+                catch
+                {
+
+                }
             }
         }
 
@@ -203,5 +220,23 @@ namespace QuanLyThuVienCaNhan
                 LoadBookToLvDetail(books);
             }
         }
+
+        private void xoaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có chắc chắn muốn xoá mẫu tin này?", "Thông báo",
+            MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                BookBL bookBL = new BookBL();
+                if (bookBL.Xoa(bookCurrent) > 0)
+                {
+                    MessageBox.Show("Xoá cuốn sách thành công");
+
+                    listBook = bookBL.GetAll();
+                    LoadBookToLvDetail(listBook);
+                }
+                else MessageBox.Show("Xoá không thành công");
+            }
+        }
+
     }
 }

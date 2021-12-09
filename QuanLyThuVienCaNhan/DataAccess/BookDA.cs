@@ -37,7 +37,7 @@ namespace DataAccess
             connection.Close();
             return list;
         }
-        public int Them_Sua_Xoa(Book book, int action)
+        public int Them_Sua_Xoa(Book book, int act)
         {
 
             SqlConnection sqlConn = new SqlConnection(Ultilities.ConnectionString);
@@ -57,7 +57,7 @@ namespace DataAccess
             command.Parameters.Add("@VTNgan", SqlDbType.Int).Value = book.VTNgan;
             command.Parameters.Add("@MaTL", SqlDbType.Int).Value = book.MaTheLoai;
             command.Parameters.Add("@Hinh", SqlDbType.NVarChar, 200).Value = book.HinhAnh;
-            command.Parameters.Add("@Action", SqlDbType.Int).Value = action;
+            command.Parameters.Add("@Action", SqlDbType.Int).Value = act;
             int result = command.ExecuteNonQuery();
             if (result > 0)
                 return (int)command.Parameters["@ID"].Value;
