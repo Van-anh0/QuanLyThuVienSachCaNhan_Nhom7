@@ -14,22 +14,27 @@ namespace BusinessLogic
 
         public DataTable ThongKeTL()
         {
-            return statisticalDA.TK_TheLoai();
+            return statisticalDA.TK_Category();
         }
 
         public DataTable ThongKeTG()
         {
-            return statisticalDA.TK_TacGia();
+            return statisticalDA.TK_Author();
         }
 
         public DataTable ThongKeSM()
         {
-            return statisticalDA.TK_SachMuon();
+            return statisticalDA.TK_BorrowedBook();
         }
 
         public DataTable ThongKeThoiGian()
         {
-            return statisticalDA.TK_ThoiGian();
+            return statisticalDA.TK_Time();
+        }
+
+        public DataTable ThongTinMT(int maSach)
+        {
+            return statisticalDA.Get_MT(maSach);
         }
     }
 }

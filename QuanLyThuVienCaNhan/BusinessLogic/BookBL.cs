@@ -27,5 +27,10 @@ namespace BusinessLogic
             return bookDA.Them_Sua_Xoa(book, 2);
         }
 
+        public int SuaTT(Book book)
+        {
+            return bookDA.SuaTrangThai(book);
+        }
+
     }
 }

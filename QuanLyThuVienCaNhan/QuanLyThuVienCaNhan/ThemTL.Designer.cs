@@ -79,6 +79,7 @@ namespace QuanLyThuVienCaNhan
             // cbbTheLoai
             // 
             this.cbbTheLoai.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbbTheLoai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbbTheLoai.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbTheLoai.FormattingEnabled = true;
             this.cbbTheLoai.Location = new System.Drawing.Point(167, 23);

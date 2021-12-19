@@ -16,3 +16,12 @@ D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\Busines
 D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
 D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.dll
 D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.pdb
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.dll
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\BusinessLogic.pdb
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.dll
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BusinessLogic\bin\Debug\DataAccess.pdb
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.dll
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\BusinessLogic\obj\Debug\BusinessLogic.pdb

@@ -27,6 +27,12 @@ namespace QuanLyThuVienCaNhan
             sachId = sachID;
         }
 
+        public void AddNewBook()
+        {
+            cbbTinhTrang.Text = "0";
+            cbbTinhTrang.Enabled = false;
+        }
+
         private void frmSach_Load(object sender, EventArgs e)
         {
             CategoryBL category = new CategoryBL();
@@ -43,7 +49,7 @@ namespace QuanLyThuVienCaNhan
                 txtNamXB.Text = book.NamXB;
                 txtKeSach.Text = book.KeSach.ToString();
                 txtVTNgan.Text = book.VTNgan.ToString();
-                cbbTinhTrang.SelectedItem = book.TrangThai;
+                cbbTinhTrang.Text = book.TrangThai.ToString();
                 txtHinh.Text = book.HinhAnh;
                 try
                 {
@@ -148,7 +154,7 @@ namespace QuanLyThuVienCaNhan
         }
         public int UpdateBook()
         {
-          
+            book.Ma = 0;
             if (txtTenSach.Text == "" || txtTacGia.Text == "" || txtKeSach.Text == "")
                 MessageBox.Show("Chưa nhập dữ liệu cho các ô, vui lòng nhập lại");
             else

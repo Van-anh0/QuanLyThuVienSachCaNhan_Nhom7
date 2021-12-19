@@ -36,3 +36,41 @@ D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\Q
 D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.exe
 D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.pdb
 D:\LTC#_WinForm\GitHubBaiTap\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.ThemTL.resources
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.exe.config
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.exe
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.pdb
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\BusinessLogic.dll
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\DataAccess.dll
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\BusinessLogic.pdb
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\DataAccess.pdb
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.AssemblyReference.cache
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmMuonTra.resources
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmSach.resources
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmThongKe.resources
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.Properties.Resources.resources
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.ThemTL.resources
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.GenerateResource.cache
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.CoreCompileInputs.cache
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.CopyComplete
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.exe
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.pdb
+G:\6. lập trình cơ sở dữ liệu\2HocTap\BaiNhom\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmThuVien.resources
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.exe.config
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.exe
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\QuanLyThuVienCaNhan.pdb
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\BusinessLogic.dll
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\DataAccess.dll
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\BusinessLogic.pdb
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\bin\Debug\DataAccess.pdb
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.AssemblyReference.cache
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmThuVien.resources
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmMuonTra.resources
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmSach.resources
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.frmThongKe.resources
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.Properties.Resources.resources
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.ThemTL.resources
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.GenerateResource.cache
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.CoreCompileInputs.cache
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.csproj.CopyComplete
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.exe
+C:\Users\Pika\Downloads\QuanLyThuVienSachCaNhan_Nhom7\QuanLyThuVienCaNhan\QuanLyThuVienCaNhan\obj\Debug\QuanLyThuVienCaNhan.pdb

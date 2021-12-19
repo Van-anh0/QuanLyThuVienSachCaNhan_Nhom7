@@ -44,9 +44,12 @@
   <ItemGroup>
     <Compile Include="Book.cs" />
     <Compile Include="BookDA.cs" />
+    <Compile Include="BorrowerDA.cs" />
+    <Compile Include="Borrower.cs" />
     <Compile Include="Category.cs" />
     <Compile Include="CategoryDA.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="MuonTra.cs" />
+    <Compile Include="MuonTraDA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StatisticalDA.cs" />
     <Compile Include="Ultilities.cs" />

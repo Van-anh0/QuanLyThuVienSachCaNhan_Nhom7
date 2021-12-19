@@ -63,5 +63,24 @@ namespace DataAccess
                 return (int)command.Parameters["@ID"].Value;
             return 0;
         }
+
+        public int SuaTrangThai(Book book)
+        {
+            SqlConnection sqlConn = new SqlConnection(Ultilities.ConnectionString);
+            sqlConn.Open();
+            SqlCommand command = sqlConn.CreateCommand();
+            command.CommandType = CommandType.StoredProcedure;
+            command.CommandText = Ultilities.Update_TrangThaiSach;
+            SqlParameter IDPara = new SqlParameter("@ID", SqlDbType.Int);
+            IDPara.Direction = ParameterDirection.InputOutput;
+            command.Parameters.Add(IDPara).Value = book.Ma;
+           
+            command.Parameters.Add("@TrangThai", SqlDbType.Bit).Value = book.TrangThai;
+            
+            int result = command.ExecuteNonQuery();
+            if (result > 0)
+                return result;
+            return 0;
+        }
     }
 }

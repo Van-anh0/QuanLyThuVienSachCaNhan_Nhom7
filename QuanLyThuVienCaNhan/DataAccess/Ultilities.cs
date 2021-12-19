@@ -22,6 +22,11 @@ namespace DataAccess
         public static string TK_TacGia = "TK_TacGia";
         public static string TK_SachMuon = "TK_SachMuon";
         public static string TK_ThoiGian = "TK_ThoiGian";
+        public static string ThemBanDoc = "Them_BanDoc";
+        public static string ThemMuonTra = "Them_MuonTra";
+        public static string Update_MuonTra = "Update_MuonTra";
+        public static string Update_TrangThaiSach = "Update_TrangThaiSach";
+        public static string Get_MT = "Get_MT";
 
     }
 }
